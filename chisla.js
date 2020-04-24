@@ -1,4 +1,4 @@
-const OJS = require('owop.js');
+const OJS = require('./owop.js');
 const { Worker, isMainThread,  workerData } = require('worker_threads');
 const Client = new OJS.Client({
     reconnect: true,
